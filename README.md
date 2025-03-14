@@ -2,29 +2,29 @@
 ## |Paper| 
 * Selective Label Smoothing for Predicting Under-Represented Data Samples
 ### 1. SLS for adjusting Precision and Recall (Section 3 in the paper)
-* 1. Precision_Recall_with_SLS.ipynb
+* '1. Precision_Recall_with_SLS.ipynb'
 ### 2. Experiments for Under-Represented Samples (Section 4.1 in the paper)
-* 2. SLS with UAV datasets_helpful.ipynb
-* 2_1. UAV_SLS_Results.ipynb
-* 3. SLS with 102 Datasets.ipynb
-* 3_1.102datasets_SLS_Results.ipynb
+* '2. SLS with UAV datasets_helpful.ipynb'
+* '2_1. UAV_SLS_Results.ipynb'
+* '3. SLS with 102 Datasets.ipynb'
+* '3_1.102datasets_SLS_Results.ipynb'
 ### 3. Experiments for Specific Group of Samples (Section 4.2 in the paper)
-* 4. SLS for Selected group.ipynb
-* 4_1.Selected_SLS_Results.ipynb
+* '4. SLS for Selected group.ipynb'
+* '4_1.Selected_SLS_Results.ipynb'
 ### 4. Experiments in Diverse Domains (Section 4.3 in the paper)
-* 5. Vision_ResNet50_SLS with (MNIST, F_MNIST, CIFAR_10).ipynb
-* 6. Vision_ViT_SLS with (MNIST, F_MNIST, CIFAR_10).ipynb
-* 7. Text_RNN_SLS with (SPAM, REUTER, IMDB).ipynb
-* 8. Text_CNN_SLS with (SPAM, REUTER, IMDB).ipynb
-* 9. Text_BERT_SLS with (SPAM, REUTER, IMDB).ipynb
+* '5. Vision_ResNet50_SLS with (MNIST, F_MNIST, CIFAR_10).ipynb'
+* '6. Vision_ViT_SLS with (MNIST, F_MNIST, CIFAR_10).ipynb'
+* '7. Text_RNN_SLS with (SPAM, REUTER, IMDB).ipynb'
+* '8. Text_CNN_SLS with (SPAM, REUTER, IMDB).ipynb'
+* '9. Text_BERT_SLS with (SPAM, REUTER, IMDB).ipynb'
 ### 5. Misc.
-* bayesiantests.py  # Bayesian Sign Test
-* w2v_whole(35,5,1,1)_new  # Pre-trained W2V model for UAV dataset
-* data_num.zip  # 102 tabular datasets
+* 'bayesiantests.py'  # Bayesian Sign Test
+* 'w2v_whole(35,5,1,1)_new'  # Pre-trained W2V model for UAV dataset
+* `data_num.zip'  # 102 tabular datasets
 * Other datasets are in Data Folder
 * IMDB dataset for BERT is too large to have here, it is available at Kaggle (https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
-### 6. Additional work for the section 5 in the paper
+### 6. Additional Information
 [Description of 102 Diverse Datasets]
 | **Dataset** | **#Sample** | **#Feature** | **Class Dist ('0':'1')** | **Dataset** | **#Sample** | **#Feature** | **Class Dist ('0':'1')** |
 |:--------:|:--------:|:---------:|:--------:|:--------:|:--------:|:---------:|:--------:|
