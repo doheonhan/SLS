@@ -1,9 +1,9 @@
 # SLS
 ## |Paper| 
-* Selective Label Smoothing for Predicting Under-Represented Data Samples
+* Selective Label Smoothing: A New Weighting Technique Handling Edge Cases
 ### 1. SLS for adjusting Precision and Recall (Section 3 in the paper)
 * '1. Precision_Recall_with_SLS.ipynb'
-### 2. Experiments for Under-Represented Samples (Section 4.1 in the paper)
+### 2. Experiments for Edge Cases (Section 4.1 in the paper)
 * '2. SLS with UAV datasets_helpful.ipynb'
 * '2_1. UAV_SLS_Results.ipynb'
 * '3. SLS with 102 Datasets.ipynb'
@@ -22,7 +22,7 @@
 * 'w2v_whole(35,5,1,1)_new'  # Pre-trained W2V model for UAV dataset
 * `data_num.zip'  # 102 tabular datasets
 * Other datasets are in Data Folder
-* IMDB dataset for BERT is too large to have here, it is available at Kaggle (https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+* The IMDB dataset for BERT is too large to have here, it is available at Kaggle (https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
 ### 6. Additional Information
 [Description of 102 Diverse Datasets]
