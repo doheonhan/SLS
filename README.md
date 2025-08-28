@@ -1,23 +1,19 @@
 # SLS
 ## |Paper| 
-* Selective Label Smoothing: A New Weighting Technique Handling Edge Cases
-### 1. SLS for adjusting Precision and Recall (Section 3 in the paper)
-* '1. Precision_Recall_with_SLS.ipynb'
-### 2. Experiments for Edge Cases (Section 4.1 in the paper)
-* '2. SLS with UAV datasets_helpful.ipynb'
-* '2_1. UAV_SLS_Results.ipynb'
+* Differential Learning for Data of Varying Importance via Selective Label Smoothing
+
+### UAV Comment Analysis (Section 5.1 in the paper)
+* '1. SLS with UAV datasets_helpful.ipynb'
+* '2. SLS with UAV datasets_answer.ipynb'
+### Choice of the smoothing factor (Section 5.2 in the paper)
 * '3. SLS with 102 Datasets.ipynb'
-* '3_1.102datasets_SLS_Results.ipynb'
-### 3. Experiments for Specific Group of Samples (Section 4.2 in the paper)
-* '4. SLS for Selected group.ipynb'
-* '4_1.Selected_SLS_Results.ipynb'
-### 4. Experiments in Diverse Domains (Section 4.3 in the paper)
-* '5. Vision_ResNet50_SLS with (MNIST, F_MNIST, CIFAR_10).ipynb'
-* '6. Vision_ViT_SLS with (MNIST, F_MNIST, CIFAR_10).ipynb'
-* '7. Text_RNN_SLS with (SPAM, REUTER, IMDB).ipynb'
-* '8. Text_CNN_SLS with (SPAM, REUTER, IMDB).ipynb'
-* '9. Text_BERT_SLS with (SPAM, REUTER, IMDB).ipynb'
-### 5. Misc.
+### Cross-Modal and Architectural Generalization (Section 5.3 in the paper)
+* '4. Vision_ResNet50_SLS with (MNIST, F_MNIST, CIFAR_10).ipynb'
+* '5. Vision_ViT_SLS with (MNIST, F_MNIST, CIFAR_10).ipynb'
+* '6. Text_RNN_SLS with (SPAM, REUTER, IMDB).ipynb'
+* '7. Text_CNN_SLS with (SPAM, REUTER, IMDB).ipynb'
+* '8. Text_BERT_SLS with (SPAM, REUTER, IMDB).ipynb'
+### Misc.
 * 'bayesiantests.py'  # Bayesian Sign Test
 * 'w2v_whole(35,5,1,1)_new'  # Pre-trained W2V model for UAV dataset
 * `data_num.zip'  # 102 tabular datasets
